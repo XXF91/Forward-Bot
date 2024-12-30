@@ -7,11 +7,11 @@ from os import environ
 class Config:
     API_ID = int(environ.get("API_ID", "25599491"))
     API_HASH = environ.get("API_HASH", "c8e3c0561cf148a6504f27b111fc3698")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "7292126565:AAHmKrD1E5SEYqKt5lu8cr-jrmP7v-roPzU") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
-    DATABASE_URI = environ.get("DATABASE_URI", "")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://mihaja5084:yeIh95RrMkRNZ3It@cluster0.6voc3fm.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
-    BOT_OWNER = int(environ.get("BOT_OWNER", "5983189506"))
+    BOT_OWNER = int(environ.get("BOT_OWNER", "6169288210"))
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
